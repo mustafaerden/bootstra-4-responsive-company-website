@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,7 +9,39 @@ body {
   padding: 0;
   background-color: #181f2a;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #808183; */
+  background: #ff5e5e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #808183;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+}
+
+svg {
+  max-width: 100%;
 }
 
 header {
@@ -20,7 +51,7 @@ header {
   background-repeat: no-repeat;
   background-position: left bottom;
   height: 100vh;
-  /*padding-bottom: 80px;*/
+  padding-bottom: 80px;
 }
 
 .navbar .navbar-brand img {
@@ -39,36 +70,45 @@ header {
   color: #ff5e5e;
 }
 
-/* landing page */
-.about .landing {
+/* landing page section */
+.landing-page .landing {
   margin: 20px auto;
   text-align: center;
   width: 600px;
   max-width: 100%;
 }
 
-/*.about .landing img {
-	max-width: 600px;
-}*/
-
-.about .landing h1 {
+.landing-page .landing h1 {
   line-height: 1.4;
-  font-size: 28px;
-  font-family: "Raleway", sans-serif;
 }
 
-.about .landing-p-wrapper {
+.landing-page .landing-p-wrapper {
   max-width: 500px;
   margin: 0 auto;
 }
 
-.about .landing-p-wrapper p {
+.landing-page .landing-p-wrapper p {
   line-height: 1.4;
   font-size: 16px;
 }
 
-.about .landing-p-wrapper svg {
+.landing-page .landing-p-wrapper svg {
   max-width: 50px;
   cursor: pointer;
   /*margin-top: 10px;*/
+}
+
+/* what we do section */
+.what-we-do .wwd {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.what-we-do h3 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.what-we-do p {
+  margin: 10px 0;
 }
