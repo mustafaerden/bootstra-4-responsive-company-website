@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181f2a;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: hsl(217, 28%, 15%);
+  background-image: url("images/bg-curvy-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  height: 100vh;
+  /*padding-bottom: 80px;*/
+}
+
+.navbar .navbar-brand img {
+  width: 120px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #ff5e5e;
+}
+
+/* landing page */
+.about .landing {
+  margin: 20px auto;
+  text-align: center;
+  width: 600px;
+  max-width: 100%;
+}
+
+/*.about .landing img {
+	max-width: 600px;
+}*/
+
+.about .landing h1 {
+  line-height: 1.4;
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+}
+
+.about .landing-p-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about .landing-p-wrapper p {
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.about .landing-p-wrapper svg {
+  max-width: 50px;
+  cursor: pointer;
+  /*margin-top: 10px;*/
+}
