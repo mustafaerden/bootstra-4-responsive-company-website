@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-4">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -26,10 +26,10 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link scroll" href="#about-us">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link scroll" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -45,37 +45,39 @@
             <p>
               Cebu based web development company, Cebu Web Development provides you the best, secure, good looking, unique website or web application on time fits on your business.
             </p>
-            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
-              <defs>
-                <style>
-                .cls-1 {
-                  fill: url(#linear-gradient);
-                }
+            <a href="#what-we-do">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+                <defs>
+                  <style>
+                  .cls-1 {
+                    fill: url(#linear-gradient);
+                  }
 
-                .cls-2 {
-                  fill: url(#linear-gradient-2);
-                }
+                  .cls-2 {
+                    fill: url(#linear-gradient-2);
+                  }
 
-                .cls-3 {
-                  fill: url(#linear-gradient-3);
-                }
-                </style>
-                <linearGradient id="linear-gradient" x1="24" y1="111.67" x2="24" y2="-11.72" gradientTransform="translate(-9.94 24) rotate(-45)" gradientUnits="userSpaceOnUse">
-                  <stop offset="0" stop-color="#f3c57a" />
-                  <stop offset="0.49" stop-color="#f39369" />
-                  <stop offset="1" stop-color="#e94867" />
-                </linearGradient>
-                <linearGradient id="linear-gradient-2" x1="23.95" y1="91.17" x2="23.95" y2="18.85" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient" />
-                <linearGradient id="linear-gradient-3" x1="466.5" y1="21.5" x2="466.5" y2="-7.02" gradientTransform="translate(43.5 -442.5) rotate(90)" gradientUnits="userSpaceOnUse">
-                  <stop offset="0" stop-color="#fff" />
-                  <stop offset="0.52" stop-color="#cce2e6" />
-                  <stop offset="1" stop-color="#8fa1bb" />
-                </linearGradient>
-              </defs>
-              <rect class="cls-1" x="8.73" y="8.73" width="30.55" height="30.55" rx="1.47" ry="1.47" transform="translate(24 -9.94) rotate(45)" />
-              <path class="cls-2" d="M14.9,36.5,23,44.56a1.47,1.47,0,0,0,2.07,0l8-8V24.69H14.9Z" />
-              <path class="cls-3" d="M24.79,33.38l8-8a1.12,1.12,0,0,0,0-1.59l-2-2a1.12,1.12,0,0,0-1.59,0l-2.68,2.68V15.6a1.31,1.31,0,0,0-1.31-1.31H22.79a1.31,1.31,0,0,0-1.31,1.31v8.92L18.8,21.84a1.12,1.12,0,0,0-1.59,0l-2,2a1.12,1.12,0,0,0,0,1.59l8,8A1.12,1.12,0,0,0,24.79,33.38Z" />
-            </svg>
+                  .cls-3 {
+                    fill: url(#linear-gradient-3);
+                  }
+                  </style>
+                  <linearGradient id="linear-gradient" x1="24" y1="111.67" x2="24" y2="-11.72" gradientTransform="translate(-9.94 24) rotate(-45)" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#f3c57a" />
+                    <stop offset="0.49" stop-color="#f39369" />
+                    <stop offset="1" stop-color="#e94867" />
+                  </linearGradient>
+                  <linearGradient id="linear-gradient-2" x1="23.95" y1="91.17" x2="23.95" y2="18.85" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient" />
+                  <linearGradient id="linear-gradient-3" x1="466.5" y1="21.5" x2="466.5" y2="-7.02" gradientTransform="translate(43.5 -442.5) rotate(90)" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#fff" />
+                    <stop offset="0.52" stop-color="#cce2e6" />
+                    <stop offset="1" stop-color="#8fa1bb" />
+                  </linearGradient>
+                </defs>
+                <rect class="cls-1" x="8.73" y="8.73" width="30.55" height="30.55" rx="1.47" ry="1.47" transform="translate(24 -9.94) rotate(45)" />
+                <path class="cls-2" d="M14.9,36.5,23,44.56a1.47,1.47,0,0,0,2.07,0l8-8V24.69H14.9Z" />
+                <path class="cls-3" d="M24.79,33.38l8-8a1.12,1.12,0,0,0,0-1.59l-2-2a1.12,1.12,0,0,0-1.59,0l-2.68,2.68V15.6a1.31,1.31,0,0,0-1.31-1.31H22.79a1.31,1.31,0,0,0-1.31,1.31v8.92L18.8,21.84a1.12,1.12,0,0,0-1.59,0l-2,2a1.12,1.12,0,0,0,0,1.59l8,8A1.12,1.12,0,0,0,24.79,33.38Z" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
@@ -83,8 +85,8 @@
     <!-- Landing Page End -->
   </header><!-- Header End -->
   <!-- What we do section -->
-  <section class="what-we-do my-5">
-    <div class="container">
+  <section id="what-we-do" class="what-we-do my-5">
+    <div class="container text-center">
       <h1 class="text-center font-weight-bold">What We Do</h1>
       <div class="row py-5">
         <div class="col-md-6 text-center p-3 wwd">
@@ -163,11 +165,110 @@
       </div>
     </div>
   </section>
+  <!-- About us section -->
+  <section id="about-us" class="my-5 about-us">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="d-inline font-weight-bold">About Us</h1>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-5 p-3">
+          <img class="img-fluid" src="images/about.svg" alt="about-us">
+        </div>
+        <div class="col-md-7 p-3 text-justify d-flex flex-column justify-content-center">
+          <h2 class="mb-3">Cebu Web Development</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At molestiae natus voluptate soluta tempora eligendi, animi sed debitis ea mollitia inventore dolorum corporis quae laudantium autem, ab quidem hic nulla ipsa iste fuga reiciendis quibusdam eaque? Unde quod pariatur quaerat laboriosam, assumenda commodi blanditiis est eius culpa ducimus ea voluptatem sunt, fugiat reprehenderit hic molestias rerum deserunt minus. Porro enim quibusdam ducimus, saepe sunt sequi, ullam obcaecati magni tempora voluptatibus voluptatum eaque eos, commodi libero, neque quaerat unde similique. Sed cumque ullam esse, aliquid natus nisi suscipit architecto laborum officia est deleniti, fugiat in ratione vero incidunt iste, alias! Numquam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="my-5 contact">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="d-inline font-weight-bold">Contact</h1>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-6 offset-md-3 contact-card">
+          <h2 class="text-center">Let's Find the Best Solution For You</h2>
+          <p class="contact-card-subheader text-center mb-3">Get in touch with us now</p>
+          <div class="row">
+            <div class="col-md-10 offset-md-1 text-center">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail mr-2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <a class="out-links" href="mailto:info@cebuwebdevelopment.com">info@cebuwebdevelopment.com</a>
+                </li>
+                <li class="list-group-item bg-transparent">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call mr-2">
+                    <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  <a class="out-links" href="tel:+639569225656">+639569225656</a>
+                </li>
+                <li class="list-group-item bg-transparent">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin mr-2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Salinas Drive No:26 Lahug Cebu City</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer id="footer" class="footer">
+    <div class="container-fluid px-5">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/logo.svg" />
+        </div>
+        <div class="col-md-4 text-center">
+          <span class="badge badge-pill badge-light">Cebu Web Developer</span>
+          <span class="badge badge-pill badge-light">Web builder</span>
+          <span class="badge badge-pill badge-light">Web developer</span>
+          <span class="badge badge-pill badge-light">Company websites</span>
+          <span class="badge badge-pill badge-light">CMS</span>
+          <span class="badge badge-pill badge-light">Wordpress</span>
+          <span class="badge badge-pill badge-light">Enterprise apps</span>
+          <span class="badge badge-pill badge-light">Singlepage apps</span>
+          <span class="badge badge-pill badge-light">Callcenter apps</span>
+          <span class="badge badge-pill badge-light">Content management systems</span>
+        </div>
+        <div class="col-md-4 text-right">
+          <a class="footer-social" href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook mr-3">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a class="footer-social" href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter mr-3">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+          <a class="footer-social" href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
